@@ -1,0 +1,147 @@
+body, html {
+    color: #40514e;
+    height: 100%;
+    margin: 0;
+    font-family: "Merriweather", serif;
+}
+h1{
+    
+  font-family: "Sacramento", serif;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color:#66BFBF ;
+  line-height: 2;
+  
+}
+h2{
+    font-family: "Montserrat", serif;
+  color:#66BFBF ;
+  font-weight: normal;
+  padding-bottom: 1%;
+
+
+}
+h3{
+    font-family: "Montserrat", serif;
+    color:  #11999E;
+
+}
+p{
+    line-height: 2;
+}
+a{
+    color: #11999E;
+    font-family: "Montserrat", serif;
+    margin: 1% 1%;
+    text-decoration: none;
+
+}
+a:hover{
+    color:#eaf6f6;
+}
+.intro{
+    width: 45%;
+    margin: auto;
+}
+.skill-row{
+    width: 50%;
+    margin:10% auto 10% auto;
+    text-align: left;
+}
+.web-dev{
+    width: 25%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 3%;
+
+
+}
+.content-creation{
+    width: 25%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 3%;
+    
+
+}
+
+.top-container {
+    text-align: center;
+    padding: 15%; 
+    position: relative;
+    background-color: #e4f9f5;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 15%; 
+    width: 20%; 
+    top: 2%; 
+}
+
+.bottom-cloud {
+    width: 20%; 
+    position: absolute;
+    left: 10%; 
+    bottom: 50%; 
+}
+
+.mountain {
+    max-width: 100%; 
+    height: auto;  
+}
+.middle-container{
+    position: relative;
+    text-align: center;
+    margin: 5% 0;
+
+}
+.copyright{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 2% 0 0 0;
+
+}
+
+.bottom-container {
+    position: relative;
+    margin: 0 auto;
+    background-color:  #66BFBF;
+    padding: 3% 0 2%;
+    
+}
+.the-tittle{
+    font-size: 2.5rem;
+}
+.footer-link{
+    color:  #11999E;
+}
+.contacts{
+    position: relative;
+    text-align: center;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #11cdd4, #11999e);
+    transition: background 0.3s;
+    margin: 3% auto 3% auto;
+}
+
+.btn:hover {
+    background: linear-gradient(45deg, #30e3cb, #2bc4ad);
+}
+hr{
+    border-top-style: dotted;
+    border-bottom-style: none;
+    border-right-style: dotted;
+    border-left-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width: 2%;     
+}
